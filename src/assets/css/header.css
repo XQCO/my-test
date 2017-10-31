@@ -22,7 +22,7 @@
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url(../img/global-logo.png) no-repeat;
+  background: url(../../assets/img/global-logo.png) no-repeat;
   background-size: cover;
 }
 
@@ -30,9 +30,9 @@
 /*导航*/
 
 .nav-global .nav-list {
-  float: right;
+  float: left;
   line-height: 28px;
-  margin: 36px 23px 0 0;
+  margin: 36px 23px 0px 120px;
 }
 
 .nav-global .nav-list li {
@@ -42,8 +42,9 @@
 .nav-global .nav-list a {
   color: #c8c8c8;
   display: inline-block;
-  font-size: 14px;
-  padding: 0 25px;
+  font-size: 15px;
+  padding: 0 33px;
+  font-weight:400;
 }
 
 .nav-global .nav-list a:hover {
@@ -81,7 +82,7 @@
   width: 20px;
   top: 0;
   height: 20px;
-  background: url(../img/account-icon.png) -155px 0;
+  background: url(../../assets/img/account-icon.png) -155px 0;
   background-size: 240px 107px;
   transition: none;
 }
@@ -123,7 +124,7 @@
 .nav-user-list:before {
   position: absolute;
   content: " ";
-  background: url(../img/account-icon.png) no-repeat -49px -43px;
+  background: url(../../assets/img/account-icon.png) no-repeat -49px -43px;
   background-size: 240px 107px;
   width: 20px;
   height: 8px;
@@ -142,7 +143,7 @@
 }
 
 .nav-user-avatar>dd:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -157,7 +158,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../img/user-avatar.png) no-repeat;
+  background: url(../../assets/img/user-avatar.png) no-repeat;
   background-size: contain;
 }
 
@@ -185,7 +186,7 @@
 }
 
 .nav-user-list li a:before {
-  background: url(../img/account-icon.png) no-repeat;
+  background: url(../../assets/img/account-icon.png) no-repeat;
   background-size: 240px 107px;
   content: ' ';
   display: block;
@@ -247,7 +248,7 @@
   bottom: 0;
   width: 30px;
   height: 20px;
-  background: url(../img/account-icon.png) -150px -22px;
+  background: url(../../assets/img/account-icon.png) -150px -22px;
   background-size: 240px 107px;
 }
 
@@ -286,13 +287,10 @@
 }
 
 .nav-cart-wrapper {
-  display: none;
   position: absolute;
   right: 0;
   padding-top: 18px;
-  opacity: 0;
-  visibility: hidden;
-  top: -3000px;
+  top: 18px;
   z-index: 30;
   width: 360px;
 }
@@ -300,7 +298,7 @@
 .nav-cart-wrapper:before {
   position: absolute;
   content: ' ';
-  background: url(../img/account-icon.png) no-repeat -49px -43px;
+  background: url(../../assets/img/account-icon.png) no-repeat -49px -43px;
   -webkit-background-size: 240px 107px;
   background-size: 240px 107px;
   width: 20px;
@@ -331,7 +329,7 @@
   overflow: hidden;
   height: 134px;
   padding-top: 180px;
-  background: url(../img/cart-empty.png) center 90px no-repeat;
+  background: url(../../assets/img/cart-empty.png) center 90px no-repeat;
   background-size: auto 62px;
   text-align: center;
 }
@@ -386,7 +384,7 @@
 }
 
 .nav-cart-list .item-thumb:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -469,7 +467,7 @@
   right: 20px;
   top: 50%;
   margin-top: -11px;
-  background: url(../img/account-icon.png) -50px -60px no-repeat;
+  background: url(../../assets/img/account-icon.png) -50px -60px no-repeat;
   background-size: 240px 107px;
   text-indent: -9999em;
 }
@@ -607,4 +605,9 @@
 
 .nav-sub .nav-list li a:hover {
   color: #6b95ea;
+}
+.mask-item{
+  height:30px;
+  width:30px;
+  -webkit-border-radius: 20px;
 }

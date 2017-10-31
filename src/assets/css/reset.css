@@ -38,6 +38,7 @@ body {
   color: rgb(102, 102, 102);
   font-size: 14px;
   min-width: 1220px;
+  background-color: white;
 }
 li {
   list-style: none;
@@ -94,7 +95,7 @@ pre {
 }
 .clear:after,
 .clear:before {
-  content: "";
+  content: '';
   display: table;
 }
 .clear:after {
